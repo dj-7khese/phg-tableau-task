@@ -16,6 +16,7 @@ To analyze and visualize general insurance pricing performance metrics using the
 - `Tableau Exercise Dataset.xlsx` — Source data for visualization.
 - `Definitions.docx` — Provided field and metric definitions.
 - `README.md` — This documentation.
+- 📌 [🗂️ Notion Project Plan](https://www.notion.so/Tableau-Task-PHG-1fae4352bc7e801f879af1a86d7e7e47)
 
 ---
 
@@ -58,6 +59,7 @@ The dashboard includes:
 - Tableau Public Desktop Edition
 - Microsoft Excel (for initial data prep)
 - GitHub (version control and documentation)
+- Notion (project planning)
 
 ---
 
@@ -65,7 +67,8 @@ The dashboard includes:
 
 **Dhaval Khese**  
 Tableau Developer | Data Visualization Specialist  
-[LinkedIn Profile](#) | [Email](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/dhaval-khese/)  
+📧 khese.dhaval7@gmail.com
 
 ---
 
