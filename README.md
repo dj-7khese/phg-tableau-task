@@ -65,3 +65,44 @@ Tableau Developer | Data Visualization Specialist
 ---
 
 > ⚠️ Note: This repository is for technical demonstration purposes only. All data and visuals were developed for assessment use.
+---
+
+## 📘 Logic & Calculation Overview
+
+This section outlines the core methodology and technical logic used to develop the Tableau dashboard.
+
+### 🔧 1. Project Setup and Planning
+- Created a Notion-based project plan to organize tasks, parameters, and charts.
+- Used GitHub for version control and documentation delivery.
+
+### 🧩 2. Parameter Configuration
+- **Start Date / End Date** parameters dynamically default to a rolling two-month window.
+- **Product Selector**: filters all views to one selected product.
+- **Dimension Switchers** (optional): allow user to toggle dimension on charts.
+
+### 📊 3. KPI & Metric Logic
+- **MKT1 Change**: Avg % change of top 1 prices weekly, excluding 5% extremes.
+- **MKT5 Change**: Similar logic for top 5.
+- **Product % Change**: Week-over-week % change.
+- **Product Median Price**: Median of selected product per week.
+
+### 📈 4. Trend Chart (Dual Axis)
+- Lines for MKT1, MKT5, and Product Index values (normalized to 1.000).
+- Bar chart for product median price.
+- Synced dual axis (Index and £ scale) with custom color scheme.
+
+### 📑 5. Summary Table (Bottom Section)
+- Used INDEX() to dynamically label rows.
+- CASE + AVG() used to safely aggregate values without mixing types.
+- Weekly columns, formatted as heatmap for % change, and £ for prices.
+
+### ⚙️ 6. Advanced Techniques
+- Used LOD expressions where needed.
+- Applied WINDOW_AVG and LOOKUP for indexing calculations.
+- Clean tooltips, synced axes, and formatted legends for clarity.
+
+### 🧩 7. Final Dashboard Assembly
+- Top = Chart | Bottom = Table | Filters on top-right
+- Responsive to parameters
+- Final polish with consistent fonts, layout, and export formatting.
+
