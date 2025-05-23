@@ -46,18 +46,10 @@ The dashboard includes:
 
 ---
 
-## ⌛ Time Constraints
-
-- Task received: 10:00 AM  
-- Submitted before: 6:00 PM (same day)  
-- Time-boxed execution with clear planning and agile approach
-
----
-
 ## 🧩 Tools & Technologies
 
 - Tableau Public Desktop Edition
-- Microsoft Excel (for initial data prep)
+- Microsoft Excel (for initial data exploration)
 - GitHub (version control and documentation)
 - Notion (project planning)
 
